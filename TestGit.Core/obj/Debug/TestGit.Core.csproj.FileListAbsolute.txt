@@ -1,0 +1,7 @@
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\bin\Debug\TestGit.Core.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\bin\Debug\TestGit.Core.pdb
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\obj\Debug\TestGit.Core.csproj.CoreCompileInputs.cache
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\obj\Debug\TestGit.Core.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\obj\Debug\TestGit.Core.pdb
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\obj\Debug\TestGit.Core.csprojResolveAssemblyReference.cache
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestGit.Core\bin\Debug\TestGit.Core.dll.config

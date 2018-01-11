@@ -1,0 +1,12 @@
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestSite.dll.config
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestSite.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestSite.pdb
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestGit.Core.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestGit.Core.pdb
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\obj\Debug\TestSite.csprojResolveAssemblyReference.cache
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\obj\Debug\TestSite.csproj.CoreCompileInputs.cache
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\obj\Debug\TestSite.dll
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\obj\Debug\TestSite.pdb
+C:\Users\Operatore 9\source\repos\TestRepo\TestGit\TestSite\bin\TestGit.Core.dll.config

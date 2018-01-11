@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestGit" EntityNamespace="TestGit.Database" ContextNamespace="TestGit.Database" Class="TestGitDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-VLVLKHE\SQLEXPRESS;Initial Catalog=TestGit;Integrated Security=True" SettingsObjectName="TestGit.Core.Properties.Settings" SettingsPropertyName="TestGitConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.UserData" Member="UserDatas" AccessModifier="Internal">
+    <Type Name="UserData" AccessModifier="Internal">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
