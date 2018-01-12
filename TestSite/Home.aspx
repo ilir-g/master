@@ -49,23 +49,37 @@
 
                 <asp:View ID="View_Edit" runat="server">
                     <div>
-                        <asp:Label runat="server">Id</asp:Label>
-                        <asp:Label runat="server" ID="Label_Id" />
-                        <asp:Label runat="server">First Name</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_FirstName" />
-                        <asp:Label runat="server">Last Name</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_LastName" />
-                        <asp:Label runat="server">Email Address</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_EmailAddress" />
+                        <div>
+                            <asp:Label runat="server">Id</asp:Label>
+                            <asp:Label runat="server" ID="Label_Id" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">First Name</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_FirstName" />
+                            <asp:RequiredFieldValidator ValidationGroup="SaveUser" runat="server" ErrorMessage="required field"
+                                ControlToValidate="TextBox_FirstName" ForeColor="Red" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">Last Name</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_LastName" />
+                            <asp:RequiredFieldValidator ValidationGroup="SaveUser" runat="server" ErrorMessage="required field"
+                                ControlToValidate="TextBox_LastName" ForeColor="Red" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">Email Address</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_EmailAddress" />
+                            <asp:RequiredFieldValidator ValidationGroup="SaveUser" runat="server" ErrorMessage="required field"
+                                ControlToValidate="TextBox_EmailAddress" ForeColor="Red" />
+                        </div>
                     </div>
                     <div>
                         <asp:LinkButton runat="server" OnCommand="LinkButton_User_Command"
-                            CommandName="Cancel">
+                            CommandName="Cancel" BorderStyle="None">
                                 Cancel
                         </asp:LinkButton>
 
                         <asp:LinkButton runat="server" OnCommand="LinkButton_User_Command"
-                            CommandName="Save">
+                            CommandName="Save" ValidationGroup="SaveUser">
                                 Save
                         </asp:LinkButton>
                     </div>
@@ -73,19 +87,27 @@
 
                 <asp:View ID="View_Details" runat="server">
                     <div>
-                        <asp:Label runat="server">Id</asp:Label>
-                        <asp:Label runat="server" ID="Label_DetailId" />
-                        <asp:Label runat="server">First Name</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_DetailFirstName" />
-                        <asp:Label runat="server">Last Name</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_DetailLastName" />
-                        <asp:Label runat="server">Email Address</asp:Label>
-                        <asp:TextBox runat="server" ID="TextBox_DetailEmail" />
+                        <div>
+                            <asp:Label runat="server">Id</asp:Label>
+                            <asp:Label runat="server" ID="Label_DetailId" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">First Name</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_DetailFirstName" ReadOnly="true" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">Last Name</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_DetailLastName" ReadOnly="true" />
+                        </div>
+                        <div>
+                            <asp:Label runat="server">Email Address</asp:Label>
+                            <asp:TextBox runat="server" ID="TextBox_DetailEmail" ReadOnly="true" />
+                        </div>
                     </div>
                     <div>
                         <asp:LinkButton runat="server" OnCommand="LinkButton_User_Command"
-                            CommandName="Cancel">
-                                Cancel
+                            CommandName="Back">
+                                Back
                         </asp:LinkButton>
                     </div>
                 </asp:View>
